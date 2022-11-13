@@ -1,0 +1,375 @@
+*{
+    margin-left:40px;
+    margin-right: 40px;
+}
+nav{
+    background-color:black;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto ;
+    height: 60px;
+    justify-content:space-between;
+    align-content:center;
+    
+    box-shadow: 0px 2.5px 2.5px  rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+img.logo{
+    width: 80px;
+    height: 25px;
+    margin: 0px;
+    border-radius: 5px;
+}
+.iso{
+    margin: 0px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    
+}
+.nlinks{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+    transition: .2s;
+    margin-top: 10px;
+    margin-right: 0px;
+   
+}
+/*.search{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}*/
+.search{
+    margin: 0px;
+}
+.nav a:hover{
+    transform: scale(1.3);
+}
+.search button{
+    background-color:white;
+    border-radius: 10px;
+    transition: .2s;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    height: 30px;
+}
+.search button:hover{
+    transform: scale(1.5);
+}
+.search button:active{
+    transform:translateY(3px);
+}
+.search input{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 10px;
+   
+}
+
+
+/*navigations ends here*/
+
+
+/* */
+.firstflexc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    max-height: fit-content;
+    align-items: flex-start;
+    
+}
+#community{
+    overflow: auto;
+    max-height: 500px;
+}
+.firstpart img{
+    max-width: 100%;
+    margin: 0%;
+    max-height: 500px
+    
+}.para1{
+    color: rgb(128, 128, 128) ;
+    margin-top: 100px;
+    max-width: 500px;
+    font-family:arial;
+    letter-spacing: 3px;
+    font-weight:600;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.para1 h1{
+    text-transform: capitalize;
+    font-family: Arial;
+    color:white;
+    font-size: xx-large;
+
+}
+.head1{
+    text-transform: capitalize;
+    font-family: Arial;
+    color:black;
+    font-size: xx-large;
+}
+
+
+/*first part ends here*/
+
+
+/*change boutton*/
+.change{
+    height: fit-content;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    transition: .2s;
+    
+}
+.change:hover{
+    background-color:white;
+    color: black;
+    border: 2px solid black;
+    transform: scale(1.1);
+}
+.change:active{
+    transform: translateY(5px);
+
+}
+/*second part */
+
+.para {
+    margin-top: 100px;
+    max-width: 500px;
+    font-family:arial;
+    letter-spacing: 3px;
+    color: rgba(128, 128, 128, 0.918);
+    font-weight:600;
+    line-height: 25px;
+    text-transform: capitalize;
+    
+}
+.para h1 , .head{
+    text-transform: capitalize;
+    font-family: Arial;
+    color: black;
+    font-size: xx-large;
+
+}
+
+.nav2{
+    background-color:rgb(116, 236, 116);
+    max-width: 450px;
+    height: 230px;
+    border-radius: 10px;
+    margin-top: 140px;
+    margin-left:400px;
+    transition: .2s;
+    margin-bottom: 100px;
+}
+.nav2 ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    transition: .2s;
+    line-height: 30px;
+    letter-spacing: 2px;
+    
+}
+.nav2 ul li a:hover{
+    
+    color:white;
+}
+.indroflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.nav2:hover{
+    transform: scale(1.1);
+}
+.nav2 ul li{
+    color: black;
+}
+/*guide part or thied part*/
+.thirdpart{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.guideflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.thirdpart h1{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px;
+    margin-bottom: 100px;
+    color: black;
+    
+
+}
+.guideflex a img{
+    height: 100px;
+    width:200px;
+    margin: 20px;
+    transition: .2s;
+    border: 3px solid black;
+}
+p.def{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.guideflex a img:hover{
+    transform:scale(1.2) ;
+    
+}
+.guideflex a img:active{
+    transform: translateY(3px);
+    
+}
+.guideflex a img{
+    box-shadow:0px 2.5px 2.5px  rgba(0, 0, 0, 0.589);
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    text-transform: capitalize;
+    
+
+}
+footer h1{
+    text-align: center;
+   color: aliceblue;
+   margin-bottom: 0%;
+   text-transform: capitalize;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+footer p{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+#inelm{
+    margin: 0px;
+    color: white;
+}
+#inelma{
+    margin: 0px;
+    color: white;
+}
+#inelma:hover{
+    color: blue;
+}
+.footflex p{
+    color: white;
+}
+.third1{
+    display: grid;
+    grid-template-columns: auto;
+    
+
+}
+.disp{
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(116, 236, 116);
+    border-radius: 10px;
+    
+    
+}
+#gdbtn{
+    display: none;
+    margin-top: 30px;
+}
+.gdbtn button{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .2s;
+
+}
+.gdbtn button:hover{
+    transform: scale(1.3);
+}
+.gdbtn button:active{
+    transform: translateY(3px);
+}
+.disp{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+#dispuh{
+    margin-bottom: 40px;
+
+}
+@media screen and (max-width:1300px) {
+   
+    .search{
+        display: none;
+    }
+    .nav2{
+        margin: 0px;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:600px){
+    .indroflex{
+        display:grid;
+        grid-template-columns: auto;
+        
+    }
+    .nav2{
+        margin: 0px;
+    }
+
+    *{
+        margin-left:10px;
+        margin-right: 10px;
+    }
+}
